@@ -1,0 +1,37 @@
+{"menu": [
+    {"url":"/scms/", "name":"Dashboard", "slug":"dashboard", "badge":"2" , "badgeClass": "badge badge-warning badge-pill float-right mr-2", "icon":"feather icon-home"},
+
+   {"url":"/scms/","navheader":"Apps","icon":""},
+        {"url":"/scms/settings", "name":"Ayarlar", "icon":"feather icon-settings", "i18n":"nav.app_email"},
+        {"url":"/scms/stocks", "name":"Stok Yönetimi", "slug":"stock",  "icon":"feather icon-archive"},
+        {"url":"/scms/orders", "name":"Siparişler", "icon":"feather icon-message-square", "i18n":"nav.app_chat"},
+        {"url":"/scms/", "name":"Ürünler", "icon":"feather icon-check-square", "i18n":"nav.app_todo",
+          "submenu": [
+            {"url":"/scms/products", "name":"Ürün Listesi", "icon":"feather icon-circle", "i18n":"nav.app_user_list"},
+            {"url":"/scms/colors", "name":"Rek Listesi", "icon":"feather icon-circle", "i18n":"nav.app_user_view"},
+            {"url":"/scms/thicks", "name":"Kalınlık", "icon":"feather icon-circle", "i18n":"nav.app_user_view"},
+            {"url":"/scms/currencies", "name":"Para Birimleri", "icon":"feather icon-circle", "i18n":"nav.app_user_view"}
+          ]
+        },
+        {"url":"/scms/menus", "name":"Menüler", "icon":"feather icon-list", "i18n":"nav.app_calender"},
+        {"url":"/scms/pages", "name":"Sayfalar", "icon":"feather icon-calendar", "i18n":"nav.app_calender"},
+        {"url":"/scms/slider", "name":"Slider", "icon":"feather icon-image", "i18n":"nav.app_calender"},
+        {"url":"/scms/", "name":"Formlar", "icon":"feather icon-shopping-cart",
+            "submenu": [
+                {"url":"/scms/forms?type=1", "name":"İletişim Formları", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/scms/forms?type=2", "name":"E-Bülten Formları", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_details"}
+            ]
+        },
+        {"url":"/scms/", "name":"Kullanıcılar", "icon":"feather icon-users",
+          "submenu": [
+            {"url":"/scms/app-user-list", "name":"List", "icon":"feather icon-circle", "i18n":"nav.app_user_list"},
+            {"url":"/scms/app-user-view", "name":"View", "icon":"feather icon-circle", "i18n":"nav.app_user_view"}
+          ]
+        },
+        {"url":"/scms/logout", "name":"Çıkış Yap", "icon":"feather icon-power","js" :  "onclick=event.preventDefault();document.getElementById('logout-form').submit();"}
+
+
+
+
+]}
+
